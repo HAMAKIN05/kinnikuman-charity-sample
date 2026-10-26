@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+<meta name="theme-color" content="#ffda2b">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>【SAMPLE】キン肉マン × 瀧下和之氏 — 熊本城復興支援チャリティーTシャツ 特設サイト</title>
 <meta name="description" content="キン肉マンとアーティスト・瀧下和之氏によるコラボレーションTシャツ。売上の10%を熊本城の復興支援に充てるチャリティー企画です。（構成確認用サンプル）">
@@ -440,6 +441,197 @@ dialog.lb img{width:100%;height:calc(86vh - 70px);height:calc(86dvh - 70px);obje
   .hero-tag,.hero-lead,.hero-stats,.hero-cta,.hero-copy>p.note{order:2}
   .hero-tag{margin-top:22px}
 }
+
+/* ===== Palette: MUSCLE RECOVERY (color-only overrides; layout untouched) ===== */
+:root{--yellow:#ffda2b;--red:#c72b24;--red-d:#25241f;--ink:#25241f;--cream:#fffcf2;--off:#fffcf2;--paper:#ffda2b;--black:#25241f;--char:#25241f;--line:rgba(37,36,31,.22);--gold:#25241f;--gold-l:#c72b24;--muted:#62615a}
+::selection{background:var(--red);color:#fff}
+body{background-color:var(--cream);color:var(--ink)}
+a:focus-visible,button:focus-visible{outline-color:#075caa}
+/* sample banner */
+.sample-banner{background:repeating-linear-gradient(-45deg,#25241f 0 14px,#33322b 14px 28px);color:#fffcf2}
+.sample-banner b{background:var(--yellow);color:var(--ink)}
+/* header + drawer */
+.site-header{background-color:var(--yellow);border-bottom-color:var(--line)}
+.logo-txt{color:var(--ink)}
+.logo-mark{border-color:var(--ink);color:var(--ink)}
+.logo-txt small{color:var(--red)}
+.nav a{color:var(--ink)}
+.nav a.active{color:var(--ink)}
+.nav a::after{background:var(--red)}
+.btn-head{background:var(--red);color:#fff}
+.btn-head:hover{background:var(--ink);color:var(--yellow)}
+.menu-btn{border-color:var(--ink);color:var(--ink)}
+.menu-btn span,.menu-btn span::before,.menu-btn span::after{background:var(--ink)}
+.drawer{background:var(--yellow);border-bottom-color:var(--ink);color:var(--ink)}
+.drawer a{border-top-color:var(--line)}
+.drawer a em{color:var(--red)}
+/* hero */
+.hero{background:var(--yellow);color:var(--ink)}
+.hero::before{background:linear-gradient(115deg,transparent 0 58%,rgba(199,43,36,.08) 58% 70%,transparent 70%)}
+.hero-bg-kanji{-webkit-text-stroke-color:rgba(199,43,36,.2)}
+.charity-badge{background:var(--red);color:#fff}
+.charity-badge i{background:#fff;color:var(--red)}
+.hero-eyebrow{color:var(--ink)}
+.hero h1{color:var(--red)}
+.hero h1 .x{color:var(--ink)}
+.hero h1 .ttl-sub{color:var(--ink)}
+.hero-tag{color:var(--ink)}
+.hero-lead{color:var(--ink)}
+.hero-lead strong{color:var(--red)}
+.hero-art .frame{background:#fff;border-color:var(--ink);box-shadow:0 30px 70px -20px rgba(199,43,36,.45),0 0 0 8px rgba(37,36,31,.08)}
+.hero-art .frame::before,.hero-art .frame::after{border-color:var(--red)}
+.hero-art figcaption{color:#62615a}
+.hero-art figcaption b{color:var(--ink)}
+.hero-stats,.hero-stats div{border-color:var(--line)}
+.hero-stats b{color:var(--red)}
+.hero-stats span{color:#62615a}
+.hero .note{color:#62615a}
+/* buttons */
+.btn-red{background:var(--red);color:#fff;box-shadow:0 6px 0 var(--ink)}
+.btn-red:hover{background:var(--ink);color:var(--yellow)}
+.btn-ghost{border-color:var(--ink);color:var(--ink);background:transparent}
+.btn-ghost:hover{background:var(--ink);color:var(--yellow)}
+/* section commons */
+.sec-num em{color:var(--red)}
+.note{color:var(--muted)}
+.note-tbd{border-color:var(--ink);color:var(--ink);background:#fff9da}
+.pending{color:#62615a;border-left-color:var(--red)}
+.eyebrow-en{color:var(--red)}
+/* placeholders */
+.ph{border-color:rgba(37,36,31,.4);color:#62615a;background:repeating-linear-gradient(45deg,rgba(37,36,31,.04) 0 10px,transparent 10px 20px),#fff9da}
+.ph .ph-sub{color:#716e64}
+.ph-tag{background:var(--yellow);color:var(--ink)}
+/* ribbon */
+.ribbon{background:var(--red);color:var(--yellow);border-top-color:var(--ink);border-bottom-color:var(--ink)}
+.ribbon p span{color:var(--yellow)}
+/* collab (dark, = ref .creators) */
+.collab{background:var(--ink);color:var(--cream)}
+.collab .sec-num{border-top-color:#62615a}
+.collab .sec-desc,.collab-lead{color:#d5d3c9}
+.collab .sec-en{color:#d2cebd}
+.collab .eyebrow-en{color:var(--yellow)}
+.collab-head h2 .x{color:var(--yellow)}
+.collab-lead p:first-child{color:var(--cream)}
+.collab-card{background:#fff;border-color:#62615a;color:var(--ink)}
+.collab-card .bar{background:var(--red)}
+.collab-card.artist .bar{background:var(--yellow)}
+.collab-label{color:var(--red)}
+.collab-card.artist .collab-label{color:var(--ink)}
+.collab-body h3 small{color:#716e64}
+.collab-body p{color:#62615a}
+.fact-list li::before{background:var(--red)}
+.replace{color:var(--ink);background:#fff9da;border-left-color:var(--yellow)}
+.collab-x{color:var(--yellow)}
+.collab-card .photo{background:#e6e4dc}
+.collab-card .photo.art{background:#fff}
+.collab-card .photo figcaption{background:var(--ink);color:#e6e4dc}
+/* artwork (= ref .art-section) */
+.sec.artwork{background:var(--cream);color:var(--ink)}
+.art-frame{background:#fff;border-color:#e7e3d5}
+.art-frame:hover{box-shadow:10px 10px 0 var(--yellow)}
+.zoom-label{color:#62615a}
+.zoom-label b,.art-number,.art-copy h2 .red,.art-link b{color:var(--red)}
+.art-number span{color:var(--ink)}
+.art-copy>p.body{color:var(--ink)}
+.art-copy .small-note{color:#757267}
+.art-link{border-bottom-color:var(--ink)}
+/* charity (dark band) */
+.charity{background:var(--ink);color:var(--cream)}
+.charity::before{background:repeating-linear-gradient(90deg,rgba(255,218,43,.05) 0 1px,transparent 1px 80px)}
+.charity .sec-num{border-top-color:#62615a}
+.charity .sec-en{color:#d2cebd}
+.charity .sec-desc{color:#d5d3c9}
+.charity .note{color:#62615a}
+.ten{border-color:var(--yellow);background:var(--yellow);color:var(--ink)}
+.ten::before,.ten::after{border-color:var(--red)}
+.ten-num{color:var(--red);text-shadow:0 0 40px rgba(199,43,36,0)}
+.ten-num small{color:var(--red)}
+.charity-copy h3{color:var(--cream)}
+.charity-copy p{color:#d5d3c9}
+.charity .pending{color:#d2cebd;border-left-color:var(--yellow)}
+.flow,.flow div+div{border-color:#62615a}
+.flow b{color:var(--yellow)}
+.charity .ph{border-color:rgba(255,218,43,.5);color:var(--yellow);background:repeating-linear-gradient(45deg,rgba(255,255,255,.035) 0 10px,transparent 10px 20px),#2f2e28}
+.charity .ph .ph-sub{color:#d2cebd}
+/* products (= ref .collection) */
+.products{background:var(--yellow);color:var(--ink)}
+.products .sec-desc{color:var(--ink)}
+.products .sec-en{color:#62615a}
+.products .note[style]{color:#62615a!important}
+.price-table{background:var(--ink);border-color:var(--ink)}
+.price-table div{background:var(--cream)}
+.price-table div b{color:var(--red)}
+.tax-note{background:var(--ink);color:var(--yellow)}
+.card{background:#fff;border-color:var(--ink);box-shadow:0 14px 30px -18px rgba(37,36,31,.35)}
+.card-top{background:var(--ink);color:#fff}
+.card-letter{color:var(--yellow)}
+.card-letter small{color:#d2cebd}
+.card-type{background:var(--red);color:#fff}
+.stage{background:#fff}
+.stage-label{background:#faf8f1;color:#62615a;border-top-color:#e6e4dc;border-bottom-color:#e6e4dc}
+.stage-label b{color:var(--red)}
+.vw{border-color:#d6d1c4;background:#fff}
+.vw span{background:var(--ink);color:#fff}
+.vw[aria-pressed="true"]{border-color:var(--red)}
+.vw[aria-pressed="true"] span{background:var(--red)}
+.stage-tag{background:var(--yellow);color:var(--ink)}
+.card-body h3 small,.opt-label{color:#716e64}
+.opt-label output{color:var(--ink)}
+.sw{border-color:#d6d1c4;background:#fff;color:var(--ink)}
+.sw:hover{border-color:var(--yellow)}
+.sw[aria-pressed="true"]{border-color:var(--red);box-shadow:0 0 0 2px rgba(199,43,36,.15)}
+.chip.full::after{background:conic-gradient(var(--red),var(--yellow),#075caa,var(--red))}
+.price-row{border-top-color:#d6d1c4}
+.price{color:var(--red)}
+.price small{color:var(--ink)}
+.price-row .note-tbd{color:var(--ink);border-color:var(--ink);background:#fff9da}
+.buy .note{color:#716e64}
+.zoom-hint{background:rgba(255,255,255,.92);border-color:#d6d1c4;color:var(--red)}
+/* howto / info (= ref cream sections) */
+.sec.howto,.sec.info{background:var(--cream);color:var(--ink)}
+.howto-box{background:var(--ink);color:var(--cream);border-top-color:var(--red)}
+.howto-q{border-top-color:var(--line)}
+.hq-label,.hq-note,.hq-steps small{color:#716e64}
+.hq-label em{color:var(--red)}
+.howto-q h2{color:var(--ink)}
+.hq-steps li{color:#62615a;border-color:var(--line)}
+.hq-steps .n{color:#716e64}
+.hq-steps small{border-color:var(--line)}
+.info .sec-desc{color:var(--ink)}.info .sec-en{color:#716e64}
+.tbd-list{border-top-color:var(--ink)}
+.tbd-list li,details{border-bottom-color:#e6e4dc}
+details:first-of-type{border-top-color:var(--ink)}
+.soon{background:var(--ink);color:#fff}
+.soon::before,.sub-h::before{color:var(--red)}
+.sub-h::before{background:var(--red)}
+summary::before,summary::after{color:var(--red)}
+details p{color:#62615a}
+/* closing (= ref .closing) */
+.closing{background:var(--red);color:var(--yellow)}
+.closing .eyebrow-en{color:var(--yellow)}
+.closing .btn{background:var(--ink);color:#fff}
+.closing .btn:hover{background:var(--ink);color:var(--yellow)}
+.closing-outline{-webkit-text-stroke-color:rgba(255,218,43,.22)}
+/* lightbox */
+dialog.lb{background:#fff;border-top-color:var(--red)}
+dialog.lb::backdrop{background:rgba(18,18,14,.85)}
+.lb-head{color:var(--ink)}
+.lb-head button{background:var(--yellow);color:var(--ink)}
+/* footer (= ref footer) */
+footer{background:var(--yellow);border-top-color:var(--ink);color:var(--ink)}
+.foot-title,.rights .credit{color:var(--ink)}
+.foot-nav a:hover{color:var(--red)}
+.rights{border-color:var(--line)}
+.copy{color:#62615a}
+/* mobile bottom CTA */
+.bottom-cta{background:linear-gradient(180deg,rgba(255,252,242,0),rgba(255,252,242,.92) 30%)}
+.bottom-cta a{background:var(--red);color:#fff;box-shadow:0 8px 20px -6px rgba(199,43,36,.6),inset 0 0 0 2px rgba(255,255,255,.12)}
+.bottom-cta a small{background:rgba(0,0,0,.2)}
+.collab .sec-num em,.charity .sec-num em,.charity .eyebrow-en{color:var(--yellow)}
+/* AA: small red text on yellow uses a deepened ref red (#b5251e, 4.7:1) */
+.logo-txt small,.hero-lead strong,.hero-stats b small,.products .sec-num em,footer .sec-num em{color:#b5251e}
+.closing .eyebrow-en{color:var(--cream)}
+.charity .flow .note{color:#d2cebd}
 </style>
 </head>
 <body>
